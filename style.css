@@ -1,0 +1,519 @@
+/*
+Plugin Name: Akismet Anti-Spam
+Author: SETU ISLAM RUMI
+Description:This is a school or college based theme. Where all the content of a school/college is arranged through video, audio, text, image and animation.The theme is designed in such a way that it looks attractive and accessible.
+Version: 0.01
+Author URI: C:\xampp\htdocs\wdp\wordpress\wp-content\themes\BIET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+div{
+    display: block;
+}
+
+/* header start............. */
+#header{
+    background-color:rgb(26,44,87);
+    padding: 20px;
+
+}
+#header h2{
+    text-shadow: 10px 20px 30px aqua;
+  }
+
+#header img{
+    border-radius: 50px;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-top: -12px;
+}
+
+ h2,h4{
+   
+    color: white;
+    text-align: center;
+}
+p{
+   text-align: justify;
+}
+
+/* nav menu */
+
+.nav{
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+#sub-nLink{
+    color: white;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    display: block;
+    background: rgb(26,44,87);  
+    text-decoration: none; 
+     
+}
+#sub-nLink:active{
+    color: DodgerBlue;
+    text-decoration: underline;
+}
+.nav-link:active{
+    color:  DodgerBlue;
+    
+}
+.nav-link:visited {
+    text-decoration: underline;
+  }
+.nav-link{
+    color: black;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    display: block;
+}
+
+#droupdown-menu{
+    position: absolute;
+    z-index: 2;
+    background: rgb(26,44,87);
+    padding: 30px;
+    text-decoration: none;
+    display: none;  
+}
+
+#droupdown-container:hover  #droupdown-menu{
+    display: block;
+    transition: 1s;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 20px;
+
+}
+
+.nav input{
+    text-align: center;
+    float: right;
+}
+
+
+/* section 1 */
+#section1{
+    background:url('img/8.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: block;
+    align-items: center;
+
+}
+#section1 h3{
+  text-shadow: 1px 2px 1px rgb(26,44,87);
+  color: white
+}
+#section1 a{
+    padding: 12px 50px;
+    border: 1px solid white;
+    align-items: center;
+    margin-left: 43%;
+    margin-top: 0px;
+    text-shadow: 1px 2px 1px rgb(26,44,87);
+}
+#section1 a:hover{
+    background-color:rgb(26,44,87) ;
+    border: none;
+}
+
+
+/* section 2 */
+.F-icon{
+    color: black;
+    font-size: 80px;
+    padding: 12px;
+    border-radius: 50%;
+    border: 3px solid rgb(26,44,87) ;
+    margin-top: -50px;
+    background:white;
+    text-align: center;
+    margin-left: 20%;    
+}
+
+.f-card1{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(26,44,87) ;
+    border-left: 1px solid rgb(26,44,87) ;
+    background: rgb(26,44,87) ;
+    text-align: justify;
+    color: #f2f2f2;
+    
+}
+.f-card2{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(67,88,159) ;
+    border-left: 1px solid rgb(67,88,159) ;
+    background: rgb(79, 52, 52) ;
+    text-align: justify;
+    color: #f2f2f2;
+}
+
+.f-card3{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(67,88,159) ;
+    border-left: 1px solid rgb(67,88,159) ;
+    background: rgb(26,44,87) ;
+    text-align: justify;
+    color: #f2f2f2;
+}
+.f-card4{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(67,88,159) ;
+    border-left: 1px solid rgb(67,88,159) ;
+    background: rgb(79, 52, 52) ;
+    text-align: justify;
+    color: #f2f2f2;
+}
+
+.f-card1:hover{
+    background: white;
+    color:rgb(67,88,159);
+    transform: scale(1.2);
+    border-bottom: 1px solid black;
+}
+
+.f-card2:hover{
+    background: white;
+    color:rgb(67,88,159);
+    transform: scale(1.2);
+    border-bottom: 1px solid black;
+}
+
+.f-card3:hover{
+    background: white;
+    color:rgb(67,88,159);
+    transform: scale(1.2);
+    border-bottom: 1px solid black;
+}
+
+.f-card4:hover{
+    background: white;
+    color:rgb(67,88,159);
+    transform: scale(1.2);
+    border-bottom: 1px solid black;
+}
+
+/* Campus in Section3 */
+.campus h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.academics-section{
+    margin-top: 100px;
+}
+.academics-section .icon{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+#Cimg1{
+    background: url('img/68238333_2564312876933453_2563013161133277184_n.jpg');
+    background-size: cover;
+    border: 10px solid white;
+    height: 250px;
+    transition: 1s;
+    display: block;
+    box-shadow: 1px 4px 10px black;
+
+}
+
+#Cimg2{
+    background: url('img/266729199_4917373681627349_1740207416132181078_n.jpg');
+    background-size: cover;
+    height: 250px;
+    border: 10px solid white;
+    transition: 1s;
+    display: block;
+    box-shadow: 1px 4px 10px black;
+}
+
+#Cimg3{
+    background: url('img/90456546_2501688520046766_1563201605631737856_n.jpg');
+    background-size: cover;
+    border: 10px solid white;
+    height: 250px;
+    transition: 1s;
+    display: block;
+    box-shadow: 1px 4px 10px black;
+}
+
+#Cimg4{
+    background: url('img/4481_1454472321250853_5894683650663818618_n.jpg');
+    background-size: cover;
+    border: 10px solid white;
+    height: 250px;
+    transition: 1s;
+    display: block;
+    box-shadow: 1px 4px 10px black;
+    
+}
+
+#Cimg1 p{
+    color: transparent;
+    margin-top: -180px;
+    transition: 1s;
+}
+
+#Cimg1:hover p{
+    color: white;
+    margin-top: 40px;
+    padding: 7px;
+}
+#Cimg1:hover {
+    background:linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(img/68238333_2564312876933453_2563013161133277184_n.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    box-shadow: 1px 4px 40px black;
+
+}
+
+#Cimg2 p{
+    color: transparent;
+    margin-top: -180px;
+    transition: 1s;
+}
+#Cimg2:hover p{
+    color: white;
+    margin-top: 40px;
+    padding: 7px;
+}
+#Cimg2:hover {
+    background: linear-gradient(rgba(1, 60, 30, 0.7),rgba(1, 60, 30, 0.7)),url(img/266729199_4917373681627349_1740207416132181078_n.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    box-shadow: 1px 4px 40px black;
+
+}
+
+#Cimg3 p{
+    color: transparent;
+    margin-top: -180px;
+    transition: 1s;
+}
+#Cimg3:hover p{
+    color: white;
+    margin-top: 40px;
+    padding: 7px;
+}
+#Cimg3:hover {
+    background:linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(img/90456546_2501688520046766_1563201605631737856_n.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    box-shadow: 1px 4px 40px black;
+
+}
+
+#Cimg4 p{
+    color: transparent;
+    margin-top: -180px;
+    transition: 1s;
+}
+#Cimg4:hover p{
+    color: white;
+    margin-top: 40px;
+    padding: 7px;
+}
+#Cimg4:hover {
+    background: linear-gradient(rgba(1, 60, 30, 0.7),rgba(1, 60, 30, 0.7)),url(img/4481_1454472321250853_5894683650663818618_n.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    box-shadow: 1px 4px 40px black;
+
+}
+
+/* section in Events */
+#event{
+    margin-top: 100px;
+    background: rgb(26,44,87);
+    color: white;
+    box-shadow: 1px 4px 10px black;
+}
+
+#event:hover{
+    margin-top: 100px;
+    background: rgb(26,44,87);
+    color: white;
+    box-shadow: 1px 4px 50px black;
+}
+
+#event p{
+    padding: 30px;
+}
+#event h1{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#slider{
+    margin-top: 35px;
+}
+
+.carousel-caption{
+    background: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7));
+}
+/* section 6 in Gallery */
+
+#gallery{
+    margin-top: 100px;   
+}
+
+#gallery h1{
+    color: white;
+    background: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7));
+    padding: 20px;
+    font-weight: bold
+}
+
+#btn1{
+    color: white;
+    background: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7));
+    padding: 20px 120px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* golden-gubilee */
+.golden-gubilee{
+    background: url(img/page_25.jpg);
+    height: 250px;
+    padding: 30px;
+}
+
+.golden-gubilee .Gcontant{
+   text-align: justify;
+   color: white;
+   text-shadow: 1px 2px 1px rgb(26,44,87); ;
+}
+.golden-gubilee .container{
+    width: 60%;
+    float: left;
+}
+/* Notic */
+.notic{
+    background: url(img/notice\ copy.png);
+    background-size: cover;
+    height: 70vh;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.contant{
+ width: 50%;
+ float: right;
+}
+
+/* section 7 in contact */
+
+#contact{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    color: black;
+    display: grid;
+    margin-top: 100px;
+}
+
+#C-form{
+    box-shadow: 1px 4px 12px  gray;
+}
+
+#C-form:hover{
+    box-shadow: 1px 4px 20px  gray;
+}
+
+#C-form a{
+    border: 2px solid   rgb(26,44,87);
+    padding: 8px 20px;
+    color: rgb(26,44,87) ;
+    font-weight: bold;
+}
+
+#C-form a:hover{
+    border: none;
+    color: #f2f2f2;
+    padding: 8px 20px;
+    background: rgb(26,44,87) ;
+    transition: 1s;
+    
+}
+
+
+
+/* Footer */
+#footer{
+    background:  rgb(26,44,87);
+    padding: 70px;
+    color: #f2f2f2;
+
+}
+
+#footer h1{
+    text-align-last: center;
+}
+
+#footer #link{
+    text-decoration: none;
+    color: #f2f2f2;
+    text-shadow: 1px 3px 1px black;
+}
+
+#btnF{
+    background: white;
+    font-weight: bold;
+    padding: 12px 40px;
+    color: rgb(26,44,87);
+    text-decoration: none;
+}
+
+#btnF:hover{
+    border: 1px solid white;
+}
+
+
+#footer img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -2px;
+}
+
+#footer h1{
+  float: left;
+}
+
+
+.aIcon{
+    color: #f2f2f2;
+}
+
+#f-icon{
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 5px;
+}
+

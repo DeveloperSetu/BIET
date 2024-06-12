@@ -1,0 +1,150 @@
+
+/* onely for Mobile Device */
+
+@media screen and (max-width :700px)   
+ {
+   /* header */
+   #header img{
+    margin-top: 30px;
+}
+
+#header h4{
+font-size: small;
+}
+
+#header h4{
+    font-size: medium;
+    }
+/* nav */
+.nav a{
+    width: 100%;
+    display: block;
+}
+.droupdown-container{
+    display: block;
+}
+#main-div{
+    width: 100%;
+    display: block;
+}
+.nav{
+    display: none;
+}
+
+#footer-div1{
+margin-top: 30px;
+    
+}
+
+#footer-div2{
+margin-top: 70px;
+}
+
+#footer-div3{
+    margin-top: 40px;
+
+}
+
+/* section 1 */
+.f-card3{
+    margin-top: 56px;
+}
+.f-card4{
+    margin-top: 56px;
+}
+
+.f-card2{
+    margin-top: 56px;
+}
+
+.F-icon{
+    
+    margin-left: 36%;    
+}
+
+ #section1 a{
+    padding: 12px 50px;
+    background: rgb(26,44,87);
+    align-items: center;
+    margin-left: 34%;
+    margin-top: 0px;
+    text-shadow: 1px 2px 1px rgb(67,88,159);
+} 
+
+/* event */
+#text{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(26,44,87);
+    color: #f2f2f2;
+    text-align: justify;
+
+}
+ #carousel{
+    width: 100%;
+    float: right;
+    height: 456px;
+    background:  rgb(26,44,87);
+    color: #f2f2f2;
+
+}
+.row img {
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.row a{
+    margin-top: 8% !important;  
+}
+
+/* Gallery */
+
+
+/* Golden-gubilee */
+.golden-gubilee{
+    background: url(img/page_25.jpg) ;
+    height: 550px;
+    padding: 30px;
+}
+
+/* notic */
+.contant{
+    width: 100%;
+    float: left;
+    color: white;
+   text-shadow: 1px 2px 1px rgb(26,44,87); ;
+
+   }
+
+}
+
+
+
+
+/* onely for Mobile Device */
+@media screen and (max-width:900px){
+
+/* nav */
+.nav a{
+    width: 100%;
+    display: block;
+}
+.droupdown-container{
+    display: block;
+}
+#main-div{
+    width: 100%;
+    display: block;
+}
+.nav{
+    display: none;
+}
+/* section 1 */
+.f-card3{
+    margin-top: 50px;
+}
+.f-card4{
+    margin-top: 50px;
+}
+
+}

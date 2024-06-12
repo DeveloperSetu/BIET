@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Document</title>
+    <!-- boostrapt 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- boostrapt 4 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- fontawesoame cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- JQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="index.js">
+
+<style>
+  .main-div{
+    background: url(data:image/png;base64,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) no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+</style>
+</head>
+<body>
+  <div id="header">
+    <img src="img/BIET-logo-site-1.jpg" alt="404 image not found">
+    <h2 class="ml-5">BOALMARI INSTITUTE OF ENGINEERING AND TECHNOLOGY  </h2><h4>Boalmari , Faridpur</h4>
+</div>
+  <!-- nave menu -->
+  <div class="nav-div">
+    <i class="fa-solid fa-align-left nav-link nav-menu d-lg-none" ></i>
+    <div class="nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="Principal.html">Principal</a>
+    
+        <div id="droupdown-container">
+            <a class="nav-link" href="#">Administration</a>
+            <div id="droupdown-menu">
+                <a id="sub-nLink" href="Techers.html">Techers<hr></a>
+                <a id="sub-nLink" href="Students.html">Students <hr></a>
+                <a id="sub-nLink" href="ExamSystem.html">Exam System<hr></a>
+                <a id="sub-nLink" href="Libray.html">Libray<hr></a>
+                <a id="sub-nLink" href="Stuff.html">Stuff<hr></a>
+                <a id="sub-nLink" href="Multimedia.html">Multimedia<hr></a>
+                <a  id="sub-nLink" href="ClassRoutin.html">Class Routin <hr></a>
+            </div>
+        </div>
+    
+        <div id="droupdown-container">
+        <a class="nav-link" href="">Admission</a>
+        <div id="droupdown-menu">
+            <a id="sub-nLink" href="AdmissionRules.html">Admission Rules<hr></a>
+            <a id="sub-nLink" href="AdmissionForm.html">Admission Form<hr></a>
+            <a id="sub-nLink" href="Co-Teacher.html">Co-Teacher <hr></a>
+            <a id="sub-nLink" href="Scout.html">Scout <hr></a>
+            <a id="sub-nLink" href="Event.html">Events <hr></a>
+            <a id="sub-nLink" href="Others.html">Others <hr></a>
+        </div>
+      </div>
+    
+        <div id="droupdown-container">
+            <a class="nav-link" href="#">Academics</a>
+            <div id="droupdown-menu">
+                <a id="sub-nLink" href="Civit.html">Civil<hr></a>
+                <a id="sub-nLink" href="Electrical.html">Electrical<hr></a>
+                <a id="sub-nLink" href="Computer.html">Computer <hr></a>
+            </div>
+            </div>
+        <a class="nav-link" href="Contact.html">Contact</a>
+        <a class="nav-link" href="Notics.html">Notics</a>
+    </div><br>
+
+  <!-- section1 -->
+  <div class="main-div"></div><br><br><br>
+  <div class="container">
+    
+  </div>
+
+
+
+<!-- Footer section -->
+<div id="footer">
+    <div class="row">
+      <div class=" col-lg-4 col-sm-10" id="footer-div1" >
+        <p>Technical education is one of the modern education in our country along with various types of education. In today's time, the touch of technology is practical
+          Education is technical education. That is to say that the education that goes beyond the rules and regulations in a specific subject makes the country's student society efficient and practical
+          Builds as a possessor of knowledge. In recent times the importance of technical education is so high in our country that we are in our daily life as well
+          I have been feeling step by step.</p><br>
+          <a href="seeMore.html" id="btnF">See More</a>
+      </div>
+
+      <div class=" col-lg-3 col-sm-10" id="footer-div2" >
+        <!-- Link -->
+        <h5>Link</h5>
+        <a href="https://polytechnicbd.com/ " id="link">Polytechnic.com</a><br>
+        <a href="http://www.bteb.gov.bd/site/view/notices" id="link">Polytechnic notice board</a><br>
+        <a href="http://www.btebcbt.gov.bd/login/auth" id="link"> Bangladesh Technical Education Board</a><br>
+        <a href="https://www.onlineresultportal.com/polytechnic/"id="link" >Polytechnic Online Result</a><br>
+        <a href="https://www.italcoholic.in/polytechnic-helpline-2022/"id="link" >Polytechnic Help Line</a><br>
+        <a href="https://engineering.careers360.com/articles/best-polytechnic-courses-after-10th"><i class="fa-solid fa-notebook"></i>Best Polytechnic Courses </a><br>
+        <a href="http://polytechnictrainingequipments.com/">polytechnictrainingequipments.com</a><br>
+        <a href="https://en.wikipedia.org/wiki/Polytechnic">Polytechnic wikipedia</a><br>
+
+      </div>
+      
+      <div class=" col-lg-2 col-sm-10" id="footer-div2" >
+        <!--office Link -->
+        <h5 >Officeal</u></h5>
+        <span>Facrbook Page:</span><br>
+        <a href="https://www.facebook.com/bietbd" id="link">Boalmari Institute of Engineering and Technology</a><br>
+        <span>Facebook Group:</span><br>
+        <a href="https://www.facebook.com/groups/1470565533053772" id="link">BIET Polytechnic</a><br>
+        <span><i class="fa-solid fa-phone"></i>  Phone :  </span>
+        <a href="tel:01729-411121" id="link">01729-411121</a><br>
+        <span><i class="fa-solid fa-envelope-open"></i>  Email :</span>
+        <a href="bietbd@gmail.com" id="link">bietbd@gmail.com</a>
+
+    
+      </div>
+
+
+      <div class=" col-lg-3 col-sm-10" id="footer-div3" >
+       <a href="img/BIET-logo-site-1.jpg"><img src="img/BIET-logo-site-1.jpg" alt=""></a>
+        <h3>BIET</h3>
+        <p>Boalmari Institute of Engineering and Technology</p><hr>
+       <i class="fa-brands fa-facebook" id="f-icon"></i> 
+       <i class="fa-brands fa-whatsapp"  id="f-icon"></i>
+       <i class="fa-solid fa-envelope-open" id="f-icon"></i>               
+      </div>
+   </div>
+  <br>
+   <hr>
+
+   <div id="seaWeb">
+    <span class="text-center"><a href="https://www.seawebit.com/" id="link" style="text-decoration: underline;">Sea web it</a></span><br>
+    <a href="faridpurweb@gmai.com" class="text-center">faridpurweb@gmai.com</a><br>
+     <a href="https://web.facebook.com/soumitrasahatanin" class="aIcon"><i class="fa-brands fa-square-facebook text-center"></i></a>
+     <a href="#" class="aIcon"><i class="fa-brands fa-square-whatsapp"></i></a>
+     <a href="" class="aIcon"><i class="fa-solid fa-envelope"></i></a>
+   </div>
+
+    <script>
+        $(".nav-menu").click(()=>{
+        $(".nav").toggle();})
+    
+    </script>
+</body>
+</html>
